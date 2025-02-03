@@ -2,18 +2,28 @@ body {
   background-color: rgb(40, 43, 51);
 }
 
-h1 {
-  color: white;
-  text-align: center;
+.contents {
+  width: 90%;
 }
 
-p {
+.header {
+  align-content: center;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 20pt;
+}
+
+.paragraph {
   color: rgb(191, 200, 224);
   font-family: "Times New Roman", Times, serif;
-  font-size: 20px;
+  font-size: 16pt;
 }
 
 .button {
   color: white;
   text-align: center;
+  font-size: 40pt;
 }
