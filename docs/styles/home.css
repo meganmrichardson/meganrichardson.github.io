@@ -5,7 +5,8 @@ body {
 }
 
 .contents {
-  width: 90%;
+  width: 80%;
+  font-family: Helvetica, sans-serif;
 }
 
 .header {
@@ -21,21 +22,22 @@ body {
 
 .paragraph {
   color: rgb(191, 200, 224);
-  font-family: "Times New Roman", Times, serif;
   font-size: 16pt;
 }
 
 .button {
   color: rgb(191, 200, 224);
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  width: 70px;
+  width: 150px;
 }
 
 .tabicon {
   font-size: 20pt;
+  display: flex;
+  justify-content: center;
 }
 
 .tabtext {
