@@ -1,6 +1,5 @@
 body {
   background-color: rgb(40, 43, 51);
-  width: 40px;
 }
 
 .contents {
@@ -29,7 +28,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 20pt;
 }
 
 .tabicon {
