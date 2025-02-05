@@ -6,4 +6,4 @@ Personal website built for fun!
 
 - Home Page
 - Experience
-- Contact Me
+- Gallery
