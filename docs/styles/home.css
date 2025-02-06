@@ -74,8 +74,7 @@ body {
 .norway-pic {
   border-radius: 0.5em;
   float: center;
-  margin: 10px;
-  max-width: fit-content;
+  max-width: 100%;
 }
 
 .profile-pic {
