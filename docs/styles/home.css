@@ -7,8 +7,8 @@ body {
 }
 
 .contents {
-  width: 60%;
-  align-content: center;
+  max-width: 45rem;
+  margin: 0 auto;
 }
 
 .header {
@@ -66,4 +66,5 @@ body {
   border-radius: 0.5em;
   float: right;
   margin: 10px;
+  max-width: 250px;
 }
