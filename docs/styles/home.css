@@ -77,9 +77,17 @@ body {
 
 .location-wrapper {
   display: flex;
+  padding-top: 10px;
 }
 
 .location-icon {
-  width: 30px;
+  width: 35px;
+  height: 35px;
   font-size: 18pt;
+}
+
+.location {
+  margin: 5px;
+  font-size: 14pt;
+  font-weight: bold;
 }
