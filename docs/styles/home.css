@@ -43,11 +43,13 @@ body {
 .title {
   color: white;
   font-size: 20pt;
+  font-weight: bold;
 }
 
 .paragraph {
   color: white;
   font-size: 14pt;
+  font-weight: lighter;
 }
 
 .button {
@@ -67,6 +69,13 @@ body {
 
 .tabtext {
   font-size: 10pt;
+}
+
+.norway-pic {
+  border-radius: 0.5em;
+  float: center;
+  margin: 10px;
+  max-width: fit-content;
 }
 
 .profile-pic {
