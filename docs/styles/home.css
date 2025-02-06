@@ -4,9 +4,12 @@ body {
   justify-content: center;
 }
 
-.contents {
-  width: 75%;
+.page {
+  width: 60%;
   font-family: "Cabin", sans-serif;
+}
+
+.contents {
 }
 
 .header {
@@ -58,4 +61,10 @@ body {
 
 .tabtext {
   font-size: 10pt;
+}
+
+.profile-pic {
+  border-radius: 0.5em;
+  float: right;
+  margin: 10px;
 }

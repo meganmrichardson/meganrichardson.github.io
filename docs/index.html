@@ -14,11 +14,13 @@ tags: home
 </head>
 <html>
   <body>
-    <div class="contents">
+    <div class="page">
       {% include header.html %}
       <p class="title">Home</p>
-      <img src="images/profilepic.jpg" alt="Profile Pic" width="250" height="250">
-      <p class="paragraph">Hello, I'm Megan Richardson! Welcome to my personal website. I'm a software engineer passionate about art, music, and travel.</p>
+      <div class="contents">
+        <img src="images/profilepic.jpg" class="profilepic" alt="Profile Pic" width="250" height="250">
+        <p class="paragraph">Hello, I'm Megan Richardson! Welcome to my personal website. I'm a software engineer passionate about art, music, and travel.</p>
+      </div>
       {% include footer.html %}
     </div>
   </body>
