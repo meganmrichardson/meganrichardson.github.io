@@ -3,10 +3,12 @@ body {
   display: flex;
   justify-content: center;
   font-family: "Cabin", sans-serif;
+  flex-direction: column;
 }
 
 .contents {
   width: 60%;
+  align-content: center;
 }
 
 .header {
