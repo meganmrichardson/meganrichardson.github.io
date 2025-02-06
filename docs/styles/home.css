@@ -2,9 +2,6 @@ body {
   background-color: rgb(30, 30, 30);
   display: flex;
   justify-content: center;
-}
-
-.page {
   font-family: "Cabin", sans-serif;
 }
 
