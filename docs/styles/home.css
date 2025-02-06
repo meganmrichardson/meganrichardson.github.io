@@ -4,6 +4,7 @@ body {
   justify-content: center;
   font-family: "Cabin", sans-serif;
   flex-direction: column;
+  margin: 0px;
 }
 
 .contents {
@@ -14,7 +15,7 @@ body {
 .header {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin: 50px 0px 40px;
 }
 
 .footer {
@@ -38,7 +39,7 @@ body {
 }
 
 .title {
-  color: white
+  color: white;
   font-size: 20pt;
 }
 
