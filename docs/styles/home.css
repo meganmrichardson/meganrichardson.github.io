@@ -5,11 +5,11 @@ body {
 }
 
 .page {
-  width: 60%;
   font-family: "Cabin", sans-serif;
 }
 
 .contents {
+  width: 60%;
 }
 
 .header {
