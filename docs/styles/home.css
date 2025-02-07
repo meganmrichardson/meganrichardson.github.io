@@ -71,7 +71,7 @@ body {
   font-size: 10pt;
 }
 
-.norway-pic {
+.location-pic {
   border-radius: 0.5em;
   float: center;
   max-width: 100%;
@@ -93,6 +93,10 @@ body {
   width: 35px;
   height: 35px;
   font-size: 18pt;
+}
+
+.location-description-wrapper {
+  margin-bottom: 40px;
 }
 
 .location {
