@@ -115,5 +115,6 @@ body {
 }
 
 .gallery-section-wrapper {
+  display: grid;
   margin-bottom: 40px;
 }
