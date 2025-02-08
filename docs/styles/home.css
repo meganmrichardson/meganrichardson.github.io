@@ -86,8 +86,7 @@ body {
 
 .gallery-pic {
   border-radius: 0.5em;
-  max-width: 50%;
-  float: left;
+  max-width: 49%;
 }
 
 .location-wrapper {
@@ -113,4 +112,8 @@ body {
 
 .gallery-section {
   clear: both;
+}
+
+.gallery-section-wrapper {
+  margin-bottom: 40px;
 }
