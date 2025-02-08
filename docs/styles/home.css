@@ -84,11 +84,6 @@ body {
   max-width: 250px;
 }
 
-.gallery-pic {
-  border-radius: 0.5em;
-  max-width: 49%;
-}
-
 .location-wrapper {
   display: flex;
   padding-top: 10px;
@@ -108,6 +103,11 @@ body {
   margin: 5px;
   font-size: 14pt;
   font-weight: bold;
+}
+
+.gallery-pic {
+  border-radius: 0.5em;
+  max-width: 49%;
 }
 
 .gallery-section {
