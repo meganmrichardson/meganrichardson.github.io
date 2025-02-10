@@ -17,7 +17,13 @@ body {
 .header {
   display: flex;
   justify-content: center;
-  padding: 50px 0px 40px;
+  padding: 30px 0px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: rgb(30, 30, 30);
+  border-bottom-color: black;
+  border-bottom-style: solid;
 }
 
 .footer {
