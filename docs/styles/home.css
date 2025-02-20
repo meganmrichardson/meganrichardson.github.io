@@ -59,7 +59,6 @@ body {
 }
 
 .button {
-  color: rgb(73, 151, 101);
   display: grid;
   justify-content: center;
   align-items: center;
