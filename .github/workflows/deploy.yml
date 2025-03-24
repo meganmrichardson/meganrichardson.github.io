@@ -13,9 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Check out the repository
+      # Step 0: Check out the repository
       - name: Checkout code
         uses: actions/checkout@v2
+
+      # Step 1: Identify to Git
+      - name: Set up user
+        run: git config --global user.name "Megan Richardon"
+        run: git config --global user.email "megan.marie.richardson@gmail.com"
 
       # Step 2: Set up Node.js
       - name: Set up Node.js
