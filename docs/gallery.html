@@ -1,0 +1,65 @@
+---
+title: Gallery
+<!-- permalink: /gallery/ -->
+tags: gallery
+---
+<!DOCTYPE html>
+<head>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="styles/home.css" />
+  <script
+    src="https://kit.fontawesome.com/05e1911c80.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<html>
+  <body>
+    {% include header.html %}
+    <div class="contents">
+      <p class="title">Gallery</p>
+      <div class="gallery-section-wrapper">
+        <div class="gallery-section">
+          <img src="images/parisprint.jpg" class="gallery-pic" alt="Paris Pic" style="float:left;" />
+          <img src="images/parisprintprogress.jpg" class="gallery-pic" alt="Paris Progress Pic" style="float:right;" />
+        </div>
+        <div>
+          <p class="paragraph">"Shadows in Paris" (Lithograph, 2020)</p>
+        </div>
+      </div>
+      <div class="gallery-section-wrapper">
+        <div class="gallery-section">
+          <img src="images/treeprint.jpg" class="gallery-pic" alt="Tree Pic" style="float:left;" />
+          <img src="images/framedtreeprint.jpg" class="gallery-pic" alt="Framed Tree Pic" style="float:right;" />
+        </div>
+        <div>
+          <p class="paragraph">"Abstract Redwoods" (Drypoint, 2019)</p>
+        </div>
+      </div>
+      <div class="gallery-section-wrapper">
+        <div class="gallery-section">
+          <img src="images/mthood.jpg" class="location-pic" alt="Mt Hood Pic" />
+        </div>
+        <div>
+          <p class="paragraph">Mt. Hood (Adobe Illustator Print, 2018)</p>
+        </div>
+      </div>
+      <div class="gallery-section-wrapper">
+        <div class="gallery-section">
+          <img src="images/portland.jpg" class="location-pic" alt="Portland Pic" style="max-width: 60%;" />
+        </div>
+        <div>
+          <p class="paragraph">Portland Map (Adobe Illustator Print, 2018)</p>
+        </div>
+      </div>
+      <div class="gallery-section-wrapper">
+        <div class="gallery-section">
+          <img src="images/paris.jpg" class="location-pic" alt="Paris Pic" />
+        </div>
+        <div>
+          <p class="paragraph">Paris Houses (Adobe Illustator Print, 2018)</p>
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

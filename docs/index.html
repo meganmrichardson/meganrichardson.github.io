@@ -1,0 +1,27 @@
+---
+title: Home
+<!-- permalink: / -->
+tags: home
+---
+<!DOCTYPE html>
+<head>
+  <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="styles/home.css" />
+  <script
+    src="https://kit.fontawesome.com/05e1911c80.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<html>
+  <body>
+    {% include header.html %}
+    <div class="contents">
+      <p class="title">Home</p>
+      <img src="images/profilepic.jpg" class="profile-pic" alt="Profile Pic">
+      {% include bio.html %}
+    </div>
+    <!-- TODO: Add current most played Spotify song -->
+    <!-- TODO: Add last book read via GoodReads -->
+    {% include footer.html %}
+  </body>
+</html>
